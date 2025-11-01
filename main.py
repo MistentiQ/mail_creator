@@ -8,7 +8,7 @@ from openpyxl import load_workbook
 
 theme('DarkGrey8')  
 # Вкладки
-layout1 = [[Text('Добавление нового пользователя ZdravMail')],
+layout1 = [[Text('Добавление нового пользователя')],
            [Text('Имя пользователя')],
            [InputText(key='Username')],
            [Text('Описание')],
